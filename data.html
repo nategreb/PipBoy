@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>PipBoy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="pipBoy.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="nav">
+                <li class="nav-item"> <!--nav-item-->
+                    <a href="pipBoy.html" class="nav-link">STATS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="inventory.html" class="nav-link">INV</a>
+                </li>
+                <li class="navbar-item active">
+                    <a href="data.html" class="nav-link">DATA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="map.html" class="nav-link">MAP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  <div class="container">
+      <div class="row col-12" >
+            <ul class="nav nav-tabs">
+            <li class='nav-item'>
+                <a href="#status" class="nav-link" data-toggle="tab" role="tab">STATUS</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a>
+            </li>
+            <li class='nav-item'>
+                <a href="#perks" class="nav-link" data-toggle="tab">PERKS</a>
+            </li>
+            </ul>
+            <div class="tab-content">
+            <div class="tab-pane active" id='status' role="tabpanel">
+                <div class="center-image">
+                    <img src="pipBoy.png">
+                </div>
+                <!--
+                <div class="row">
+                    <div class="stat-bar">
+                        <div class="level-progress"></div>
+                    </div>
+                </div>-->
+            </div>
+            <div class="tab-pane" id='perks' role="tabpanel">
+                PERKS
+            </div>
+            <div class="tab-pane" id='special' role="tabpanel">
+                SPECIAL
+            </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script> 
+<script src="bootstrap.min.js"></script>
+</body>
+<navbar class="navbar navbar-light fixed-bottom pipfooter .justify-content-center">
+    <div class="row footer">
+        <div class="col-3 HP">
+            UMASS AMHERST
+        </div>
+        <div class="col-6">
+            SOPHOMORE
+            <div class="level-progress">
+                <div class="level-progress-indicator"> 
+                </div>
+            </div>
+        </div>
+        <div class="col-3 gpa">
+            GPA 3.90
+            <div class="level-progress">
+                <div class="level-progress-indicator"> 
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            CREDITS 74.2
+        </div>
+    </div>
+</navbar>
+
+</html> 
